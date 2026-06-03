@@ -1,7 +1,10 @@
-# Basic multiplication example (branch-A)
 
-# Multiply two numbers and print the result
-num1 = 8
-num2 = 7
-result = num1 * num2
-print(f"{num1} * {num2} = {result}  # branch-A")
+def multiply(a, b):
+    """Return the product of a and b."""
+    return a * b
+
+# Example usage
+x = 6
+y = 7
+result = multiply(x, y)
+print(f"{x} * {y} = {result}")
