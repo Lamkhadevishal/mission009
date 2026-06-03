@@ -1,3 +1,4 @@
+# Generate multiplication code using a function
 
 def multiply(a, b):
     """Return the product of a and b."""
