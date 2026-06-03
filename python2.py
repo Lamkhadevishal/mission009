@@ -1,0 +1,7 @@
+# Basic multiplication example
+
+# Multiply two numbers and print the result
+num1 = 6
+num2 = 7
+result = num1 * num2
+print(f"{num1} * {num2} = {result}")
