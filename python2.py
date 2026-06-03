@@ -1,7 +1,13 @@
-# Basic multiplication example (branch-B)
+# Resolved multiplication example
 
-# Multiply two numbers and print the result
-num1 = 9
+# Show both branch results and a final chosen value
+num1_a = 8
+num1_b = 9
 num2 = 7
+print(f"branch-A: {num1_a} * {num2} = {num1_a * num2}")
+print(f"branch-B: {num1_b} * {num2} = {num1_b * num2}")
+
+# Final chosen result (chose branch-A)
+num1 = num1_a
 result = num1 * num2
-print(f"{num1} * {num2} = {result}  # branch-B")
+print(f"Resolved result: {num1} * {num2} = {result}  # resolved (chose branch-A)")
