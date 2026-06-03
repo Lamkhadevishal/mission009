@@ -1,13 +1,11 @@
-# Basic multiplication example
+# Generate multiplication code using a function
 
-# Multiply two numbers and print the result
-num1 = 6
-num2 = 7
-num3=9
-result = num1 * num2
-print(f"{num1} * {num3} = {result}")
+def multiply(a, b):
+    """Return the product of a and b."""
+    return a * b
 
-num1 = 6
-num2 = 7
-result = num1 * num2
-print(f"{num1} * {num2} = {result}")
+# Example usage
+x = 6
+y = 7
+result = multiply(x, y)
+print(f"{x} * {y} = {result}")
